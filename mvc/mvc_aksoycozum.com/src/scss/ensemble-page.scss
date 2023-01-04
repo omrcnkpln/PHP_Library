@@ -1,0 +1,9 @@
+.options-wrapper {
+  &.ensemble-options {
+    .options {
+      &:before {
+        color: $ensemble;
+      }
+    }
+  }
+}

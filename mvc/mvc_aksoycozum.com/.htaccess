@@ -1,0 +1,38 @@
+# BEGIN Error Pages
+ErrorDocument 400 http://demo.aksoycozum.com/404
+ErrorDocument 401 http://demo.aksoycozum.com/404
+ErrorDocument 401 http://demo.aksoycozum.com/404
+ErrorDocument 403 http://demo.aksoycozum.com/404
+ErrorDocument 404 http://demo.aksoycozum.com/404
+ErrorDocument 405 http://demo.aksoycozum.com/404
+ErrorDocument 406 http://demo.aksoycozum.com/404
+ErrorDocument 407 http://demo.aksoycozum.com/404
+ErrorDocument 408 http://demo.aksoycozum.com/404
+ErrorDocument 409 http://demo.aksoycozum.com/404
+ErrorDocument 410 http://demo.aksoycozum.com/404
+ErrorDocument 411 http://demo.aksoycozum.com/404
+ErrorDocument 412 http://demo.aksoycozum.com/404
+ErrorDocument 413 http://demo.aksoycozum.com/404
+ErrorDocument 414 http://demo.aksoycozum.com/404
+ErrorDocument 500 http://demo.aksoycozum.com/404
+ErrorDocument 501 http://demo.aksoycozum.com/404
+ErrorDocument 502 http://demo.aksoycozum.com/404
+ErrorDocument 503 http://demo.aksoycozum.com/404
+ErrorDocument 504 http://demo.aksoycozum.com/404
+ErrorDocument 505 http://demo.aksoycozum.com/404
+# END Error Pages
+
+# _____________________________ uygundur _____________________________________________________________
+#Options +FollowSymlinks
+RewriteEngine On
+#içinde index olmayan klasörleri erişime kapatır
+Options All -Indexes
+
+#dizin veya dosya değil ise
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+# _____________________________ parametre al _____________________________________________________________
+#RewriteRule ^(.*)$ index.php?param=$1 [QSA,L]
+RewriteRule ^(.*)$ index.php?param=$1 [NC,L,QSA]

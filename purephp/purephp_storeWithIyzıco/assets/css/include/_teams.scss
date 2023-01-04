@@ -1,0 +1,72 @@
+section {
+    &.teams {
+        margin-bottom: 150px;
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        h2 {
+            display: block;
+            font-size: var(--fSize35);
+            font-family: $SantralBold;
+            color: var(--blue);
+            margin-bottom: 15px;
+        }
+        .list {
+            .box {
+                width: 20%;
+                height: 159px;
+                float: left;
+                border-right: 1px solid #f4f4f4;
+                border-bottom: 1px solid #f4f4f4;
+                text-align: center;
+                &:nth-child(11),
+                &:nth-child(12),
+                &:nth-child(13),
+                &:nth-child(14),
+                &:nth-child(15) {
+                    border-bottom: none;
+                }
+                .image {
+                    width: 139px;
+                    height: 91px;
+                    margin: 0 auto;
+                    background: #f4f4f4;
+                    margin-bottom: 15px;
+                    position: relative;
+                    @include radius(15px);
+                    &.mt-10 {
+                        margin-top: 10px;
+                    }
+                    img {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+                .statu {
+                    span {
+                        display: block;
+                        line-height: 1.5;
+                        &.gorev {
+                            font-family: $SantralBold;
+                            font-size: 13px;
+                        }
+                        &.name {
+                            color: var(--blue);
+                            font-family: $SantralBold;
+                            font-size: 13px;
+                        }
+                    }
+                }
+                &:nth-child(5n) {
+                    border-right: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400; }
+
+.main {
+  min-height: 100%; }
+
+.register .container {
+  background-color: #1E202C;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  min-height: 550px; }
+  .register .container .register-box .card {
+    border-radius: 20px;
+    background-color: #2A2B37; }
+    .register .container .register-box .card .card-body {
+      background-color: #2A2B37;
+      padding: 2rem;
+      border-radius: 20px; }
+      .register .container .register-box .card .card-body .login-box-msg {
+        color: #fff; }
+      .register .container .register-box .card .card-body input.form-control {
+        background-color: #2A2B37;
+        color: #fff;
+        border-color: #797A82; }
+        .register .container .register-box .card .card-body input.form-control::-webkit-input-placeholder {
+          color: #fff; }
+        .register .container .register-box .card .card-body input.form-control::placeholder {
+          color: #fff; }
+      .register .container .register-box .card .card-body .input-group-append .input-group-text {
+        border-color: #797A82; }

@@ -1,0 +1,69 @@
+section{
+  &.components--seo{
+    height: 610px;
+    background: var(--lightGreen);
+    .components--seo--container{
+      padding-left: var(--paddingSize);
+      padding-right: var(--paddingSize);
+      padding-top: 87px;
+      .image{
+        position: relative;
+        img{
+          width: 313px;
+          height: 362px;
+          position: relative;
+          z-index: 2;
+          margin-left: 65px;
+        }
+        &:after{
+          content: '';
+          background: url("../images/green-bg-dotted.svg") no-repeat;
+          width: 475px;
+          height: 214px;
+          position: absolute;
+          display: block;
+          bottom: -4px;
+          left: 0;
+          z-index: 1;
+        }
+      }
+      h3{
+        font-family: $SantralBold;
+        color: var(--menuColor);
+        font-size: var(--titleSize);
+        line-height: 70px;
+        padding-bottom: 33px;
+      }
+      a{
+        display: inline-flex;
+        padding: 25px 60px;
+        background: var(--green);
+        align-items: center;
+        justify-content: center;
+        @include radius(6px);
+        font-family: $SantralBold;
+        font-size: var(--smallTextSize);
+        color: var(--white);
+        text-decoration: none;
+        @include animates(500ms);
+        &:hover{
+          background: var(--yellow);
+          color: var(--menuColor);
+        }
+      }
+      span{
+        &.text{
+          display: block;
+          font-size: var(--smallTextSize);
+          font-family: $SantralLight;
+          color: var(--menuColor);
+          line-height: 45px;
+          margin-bottom: 131px;
+          strong{
+            font-family: $SantralBold;
+          }
+        }
+      }
+    }
+  }
+}

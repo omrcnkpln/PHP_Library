@@ -1,0 +1,62 @@
+# BEGIN Error Pages
+ErrorDocument 400 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 401 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 401 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 403 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 404 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 405 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 406 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 407 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 408 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 409 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 410 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 411 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 412 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 413 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 414 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 500 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 501 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 502 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 503 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 504 http://localhost:3000/phpprojects/tm-unified/404
+ErrorDocument 505 http://localhost:3000/phpprojects/tm-unified/404
+# END Error Pages
+
+# BEGIN Error Pages
+#ErrorDocument 400 https://demo.thinkermath.com.tr/404
+#ErrorDocument 401 https://demo.thinkermath.com.tr/404
+#ErrorDocument 401 https://demo.thinkermath.com.tr/404
+#ErrorDocument 403 https://demo.thinkermath.com.tr/404
+#ErrorDocument 404 https://demo.thinkermath.com.tr/404
+#ErrorDocument 405 https://demo.thinkermath.com.tr/404
+#ErrorDocument 406 https://demo.thinkermath.com.tr/404
+#ErrorDocument 407 https://demo.thinkermath.com.tr/404
+#ErrorDocument 408 https://demo.thinkermath.com.tr/404
+#ErrorDocument 409 https://demo.thinkermath.com.tr/404
+#ErrorDocument 410 https://demo.thinkermath.com.tr/404
+#ErrorDocument 411 https://demo.thinkermath.com.tr/404
+#ErrorDocument 412 https://demo.thinkermath.com.tr/404
+#ErrorDocument 413 https://demo.thinkermath.com.tr/404
+#ErrorDocument 414 https://demo.thinkermath.com.tr/404
+#ErrorDocument 500 https://demo.thinkermath.com.tr/404
+#ErrorDocument 501 https://demo.thinkermath.com.tr/404
+#ErrorDocument 502 https://demo.thinkermath.com.tr/404
+#ErrorDocument 503 https://demo.thinkermath.com.tr/404
+#ErrorDocument 504 https://demo.thinkermath.com.tr/404
+#ErrorDocument 505 https://demo.thinkermath.com.tr/404
+# END Error Pages
+
+# _____________________________ uygundur _____________________________________________________________
+#Options +FollowSymlinks
+RewriteEngine On
+#içinde index olmayan klasörleri erişime kapatır
+Options All -Indexes
+
+#dizin veya dosya değil ise
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+# _____________________________ parametre al _____________________________________________________________
+#RewriteRule ^(.*)$ HomeController.php?param=$1 [QSA,L]
+RewriteRule ^(.*)$ index.php?param=$1 [NC,L,QSA]

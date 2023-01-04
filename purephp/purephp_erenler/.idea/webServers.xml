@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="05d52ef2-fa20-4feb-ab35-4c32f8280d9b" name="erenler" url="http://izmiterenlerspor.com">
+        <fileTransfer rootFolder="/public_html" host="izmiterenlerspor.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

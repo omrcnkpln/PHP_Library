@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d82b32c7-a0d3-45e6-bf69-e95b998a08e3" name="aksoycozum" url="http://aksoycozum.com/">
+        <fileTransfer rootFolder="/public_html" host="31.186.11.130" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="78ce2183-1757-4850-a0a0-bef3d2095cb1" name="aksoydemoCpanel" url="http://31.186.11.127">
+        <fileTransfer rootFolder="/public_html" host="31.186.11.127" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

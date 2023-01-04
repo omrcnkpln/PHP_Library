@@ -1,0 +1,9 @@
+.options-wrapper {
+  &.qdms-options {
+    .options {
+      &:before {
+        color: $qdms;
+      }
+    }
+  }
+}

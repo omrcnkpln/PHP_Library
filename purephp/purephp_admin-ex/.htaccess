@@ -1,0 +1,16 @@
+RewriteEngine on
+
+#sırayla default olarak açacağı adresler
+DirectoryIndex index.php giris.php
+
+#html i de hata vermeden çalıştırır
+#AddType application/x-httpd-php php3 html
+
+#404 hatasında belirtilen sayfaya yönlendirir
+ErrorDocument 404 http://localhost/phpprojects/admin-ex/404.php
+
+RewriteRule ^kayit$ kayit.php [NC,L]
+RewriteRule ^kayit.*$ kayit.php [NC,L]
+
+RewriteRule ^index$ index.php [NC,L]
+RewriteRule ^index.*$ index.php [NC,L]

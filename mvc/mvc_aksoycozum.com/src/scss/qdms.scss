@@ -1,0 +1,33 @@
+.qdms {
+  background-color: #ff769d;
+
+  .qdms-carousel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .item {
+      height: 570px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .owl-dots {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+
+      .owl-dot {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 333ms all ease-out;
+
+        &.active {
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+}

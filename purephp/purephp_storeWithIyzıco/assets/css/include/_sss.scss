@@ -1,0 +1,74 @@
+section {
+    .sss {
+        background-image: url(../images/math.jpg);
+        /* height: 875px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        position: relative;
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        .title {
+            padding-top: 66px;
+            text-align: center;
+            padding-bottom: 70px;
+            font-size: 45px;
+            font-family: $SantralBold;
+            color: var(--white);
+        }
+        .list {
+            width: 90%;
+            margin: 0 auto;
+            .box {
+                height: 80px;
+                width: 100%;
+                border: 2px solid #5C5F60;
+                @include radius(15px);
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                position: relative;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 13px;
+                    left: 12px;
+                    width: 10px;
+                    height: 55px;
+                    background: #427FEA;
+                    display: block;
+                }
+                &:after {
+                    content: '\f107';
+                    font-family: 'Font Awesome 5 Pro';
+                    position: absolute;
+                    top: 30px;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    right: 30px;
+                    width: 10px;
+                    color: #5C5F60;
+                    display: block;
+                }
+                a {
+                    display: block;
+                    padding-left: 35px;
+                    font-size: 18px;
+                    font-family: "Santral-Bold", sans-serif;
+                    color: var(--white);
+                    text-decoration: none;
+                    -webkit-transition: 500ms all;
+                    transition: 500ms all;
+                    width: 100%;
+                    z-index: 99999;
+                    @include animates(500ms);
+                    &:hover {
+                        color: var(--tYellow);
+                    }
+                }
+            }
+        }
+    }
+}

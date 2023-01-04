@@ -1,0 +1,124 @@
+header {
+    .container {
+        height: 100vh;
+        overflow: hidden;
+        .header--top {
+            padding-top: 70px;
+            display: flex;
+            justify-content: space-between;
+            .logo {
+                display: block;
+                a {
+                    display: block;
+                }
+            }
+            .menu {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    li {
+                        a {
+                            display: block;
+                            margin-right: 25px;
+                            text-decoration: none;
+                            &.normal {
+                                font-size: var(--fSize25);
+                                color: var(--white);
+                                @include animates(500ms);
+                                &:hover {
+                                    color: var(--tYellow);
+                                }
+                            }
+                            &.login-btn {
+                                padding: 18px 36px;
+                                border: 1px solid var(--white);
+                                @include radius(6px);
+                                color: var(--white);
+                                @include animates(500ms);
+                                &:hover {
+                                    background: var(--tYellow);
+                                    border-color: var(--tYellow);
+                                    color: var(--white);
+                                }
+                            }
+                        }
+                        &:last-child {
+                            a {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header--bottom--homepage {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .title {
+                h2 {
+                    display: block;
+                    font-size: var(--fSize35);
+                    color: var(--white);
+                    text-transform: uppercase;
+                    font-family: $SantralBold;
+                    line-height: 1.5;
+                }
+                span {
+                    &.text {
+                        width: 90%;
+                        font-size: var(--fSize14);
+                        color: var(--white);
+                        line-height: 1.5;
+                        margin-top: 50px;
+                        display: block;
+                        &:after {
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
+                    }
+                }
+                ul {
+                    display: flex;
+                    margin-top: 50px;
+                    li {
+                        a {
+                            display: block;
+                            margin-right: 30px;
+                            font-size: var(--fSize14);
+                            color: var(--white);
+                            position: relative;
+                            @include animates(500ms);
+                            text-decoration: none;
+                            &:hover {
+                                color: var(--tYellow);
+                            }
+                            &:after {
+                                content: '';
+                                width: 2px;
+                                height: 100%;
+                                position: absolute;
+                                top: 0;
+                                right: -15px;
+                                background: var(--white);
+                                display: block;
+                                @include animates(500ms);
+                            }
+                        }
+                        &:last-child {
+                            a {
+                                &:after {
+                                    display: none;
+                                    content: '';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

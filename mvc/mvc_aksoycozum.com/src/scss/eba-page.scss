@@ -1,0 +1,59 @@
+.sub-page-slider{
+  margin-top: 6rem;
+}
+
+.subpage-desc {
+  padding: 2rem;
+}
+
+.options-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .options {
+    position: relative;
+    display: block;
+    padding-left: 1.5rem;
+    margin: 0 1rem 0 1rem;
+
+    &:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      content: "\f274";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      color: $eba;
+      font-size: 20px;
+    }
+  }
+
+  &.reverse {
+    align-items: flex-end;
+
+    .options {
+      padding-left: 0;
+      padding-right: 1.5rem;
+
+      &:before {
+        display: none;
+      }
+
+      &:after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 400;
+        content: "\f274";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        color: $eba;
+        font-size: 20px;
+      }
+    }
+  }
+}

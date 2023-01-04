@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400; }
+
+.main {
+  min-height: 100%; }
+
+.options-wrapper {
+  background-color: #131422;
+  overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 4rem; }
+  .options-wrapper .container .nav-pills .nav-item .nav-link {
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0; }
+    .options-wrapper .container .nav-pills .nav-item .nav-link:hover {
+      color: whitesmoke; }
+    .options-wrapper .container .nav-pills .nav-item .nav-link.active {
+      background-color: transparent;
+      border-bottom: 1px solid white;
+      padding-bottom: 1px; }
+  .options-wrapper .container .tab-content {
+    background-color: #1E202C;
+    padding: 2rem;
+    border-radius: 20px;
+    margin-bottom: 2rem; }
+    .options-wrapper .container .tab-content .table.table-hover {
+      color: #fff; }
+      .options-wrapper .container .tab-content .table.table-hover thead tr th {
+        border-color: #2A2B37; }
+      .options-wrapper .container .tab-content .table.table-hover tbody {
+        border-color: #2A2B37; }
+      .options-wrapper .container .tab-content .table.table-hover tr:hover {
+        color: #fff; }
+    .options-wrapper .container .tab-content .login-box .card {
+      border-radius: 20px;
+      background-color: #2A2B37; }
+      .options-wrapper .container .tab-content .login-box .card .card-body {
+        background-color: #2A2B37;
+        padding: 2rem;
+        border-radius: 20px; }
+        .options-wrapper .container .tab-content .login-box .card .card-body input.form-control {
+          background-color: #2A2B37;
+          color: #fff;
+          border-color: #797A82; }
+          .options-wrapper .container .tab-content .login-box .card .card-body input.form-control::-webkit-input-placeholder {
+            color: #797A82; }
+          .options-wrapper .container .tab-content .login-box .card .card-body input.form-control::placeholder {
+            color: #797A82; }
+        .options-wrapper .container .tab-content .login-box .card .card-body .input-group-append .input-group-text {
+          border-color: #797A82; }
+
+.footer-type-2 {
+  background-color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  overflow: hidden; }
+  .footer-type-2 .container {
+    background-color: #131422;
+    border-radius: 30px; }
+    .footer-type-2 .container .footer-baslik {
+      padding: 2rem 2rem;
+      color: #fff;
+      font-size: 31px; }
+    .footer-type-2 .container .footer-item-wrapper {
+      padding: 2rem 2rem; }
+      .footer-type-2 .container .footer-item-wrapper .footer-item {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex; }
+        .footer-type-2 .container .footer-item-wrapper .footer-item .footer-item-img-wrapper {
+          font-size: 23px;
+          color: #fff; }
+        .footer-type-2 .container .footer-item-wrapper .footer-item .footer-item-yazi {
+          padding-left: 0.5rem;
+          padding-top: 0.5rem;
+          font-size: 23px;
+          color: #fff; }
+  .footer-type-2 .copyright {
+    font-size: 14px;
+    color: #9BA5CA;
+    padding-top: 1rem; }

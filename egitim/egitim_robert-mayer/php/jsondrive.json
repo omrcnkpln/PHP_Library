@@ -1,0 +1,15 @@
+{
+    "web":
+    {
+        "project_id":"electric-facet-271113",
+        "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+        "token_uri":"https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+
+        "client_id" : "878759373515-saci6phlai20fkda57od4uqtmbk7ne0s.apps.googleusercontent.com",
+        "client_secret" : "FgjyT7jlWIFgBtx3F8UC-260",
+
+        "redirect_uris":["http://localhost/phpprojects/Robert_Mayer/php/sheets3.php","http://localhost/phpprojects/Robert_Mayer/php/oauth2callback.php"],
+        "javascript_origins":["http://localhost"]
+    }
+}

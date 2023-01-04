@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<html lang="tr-TR">
+    <head>
+        <title>Aksoy Çözüm</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Çözüm programları" />
+        <meta name="keywords" content="Boysweb, Eba, Qdms, Ensemble" />
+        <meta name="author" content="Aksoy Çözüm" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+        <link rel="stylesheet" type="text/css"  href="css/custom.css">
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tr>
+                <td>
+                    <img src="images/ajax-document-loader.gif" alt="Loading..." />
+                </td>
+            </tr>
+        </table>
+
+        <!-- Menu -->
+        <div class="menu-wrapper center-relative">
+            <nav id="header-main-menu">
+                <div class="mob-menu">MENÜ</div>
+                <ul class="main-menu sm sm-clean">
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#video">Hakkımızda</a></li>
+                    <li><a href="#services">BOYSWEB</a></li>
+                    <li><a href="#portfolio">EBA</a></li>
+                    <li><a href="#about">QDMS</a></li>
+                    <li><a href="#news">ENSEMBLE</a></li>
+                    <li><a href="#skills">Kullanım</a></li>
+                    <li><a href="reference.html">REFERANSLAR</a></li>
+                    
+                    <li class="demo"><a href="#contact"><b>Demo Talebi</b></a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <!-- Home -->
+
+        <div id="home" class="section intro-page">
+            <div class="block content-1170 center-relative center-text">
+                <img class="top-logo" src="demo-images/logo.png" alt="Boxus" />
+                <br>
+                <h1 style="color: #468ac7" class="big-title">Aksoy Çözüm</h1>
+                <div class="yaziarkasi">2018 yılında Bimser Çözüm’ün 125 çözüm ortağı içinde<br> <b>Aksoy Çözüm</b> 1. olmuştur.</div>
+            </div>
+        </div>
+
+        <!-- Video -->
+        <div id="video" class="section">
+                <div class="block content-1170 center-relative">
+                    <div class="section-title-holder left">
+                        <div class="center-relative">
+                            <span id="logos"><img src="demo-images/REFERANS.png" alt="referans"></span>
+                        </div>
+                        <h2 id="yazi" class="entry-title">Hakkımızda</h2>
+                    </div>
+                    <div class="section-content-holder right">
+                        <div class="content-wrapper">
+                            <div class="">
+                                <h3 id="logos">Hakkımızda</h3>
+    
+                                <p>Aksoy Çözüm, 2015 yılında yazılım projeleri üretmek ve bilgi teknolojileri alanında danışmanlık hizmetleri vermek üzere günümüzde de çalışmalarını devam ettirdiği Kocaeli Üniversitesi Teknopark'ın da kurulmuştur. İş yazılımları sektöründe ERP, CRM, BPM, Doküman Yönetimi, İş Süreçleri, Bakım Yönetimi, Satın Alma Yönetimi, TPM, Kalite Yönetimi gibi konularda geliştirme, uygulama, eğitim ve destek hizmetleri vererek müşterilerimize katma değer yaratan, rekabet avantajı getiren çözümler sunmaktayız.
+                                    <br><br>
+                                    200’ün üzerinde projede farklı sektör ve uygulamalarda kazandığımız deneyimlerimizle, müşterilerimize ‘paketlenmiş yazılımlar’ değil ‘verimlilik yaratan çözümler’ sunmak en büyük mutluluğumuz. Bu çerçevede, danışmanlık, yazılım ve destek ekiplerimizle en yeni teknolojileri, en verimli çözümleri müşterilerimize sunmak, ihtiyaçlarını iyi anlayarak uygun çözümleri üretmek ve çözümün sürekliliğini sağlamak birinci önceliğimiz.
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                            <br>
+                            <br>
+                        </div>
+                        
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+
+
+
+        <!-- Service -->
+
+        <div id="services" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="center-relative">
+                        <span id="logos"><a href="boysweb.html"><img src="demo-images/BOYSWEB.png" alt="boysweb"></a></span>
+                    </div>
+                    <h2 id="yazi" class="entry-title">BOYSWEB</h2>
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class="">
+                            <h3>Kurumsal Varlık Yönetim Sistemi</h3>
+
+                            <p><b>BOYSWEB</b> , işletmenizdeki varlıkların detaylı bir şekilde dijital sicil kartlarını tanımlayıp; arızi/periyodik bakımlar, malzeme/ yedek parçalar ve satın alma vb. süreçlerinizi yönetmenize yardımcı olacak 35 yıllık bir know-how ve 7200 grafik/200 raporlu TPM odaklı Kurumsal Bakım, Varlık ve Satın Alma Yönetim Sistemi’dir.</p>
+                            <br><a href="boysweb.html">Daha Fazla...</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="clear"></div>
+                
+            </div>
+        </div>
+
+
+        <!-- Portfolio -->
+        <div id="portfolio" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="center-relative">
+                        <span id="logos"><a href="eba.html"><img src="demo-images/EBA.png" alt="eba"></a></span>
+                    </div>
+                    <h2 id="yazi" class="entry-title">EBA</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class=" ">
+                            <h3>Belge, Döküman ve İş Akışı Yönetim Sistemi</h3>
+
+                            <p><b>eBA</b>, kağıt üzerinde yürüyen tüm iş süreçlerinizi kolaylıkla elektronik ortama taşıyan ve ERP sistemlerinizle entegre olabilen bir platformdur. İş süreçlerinin standardizasyonu ve otomasyonunu sağlayarak süreçlerin performansını iyileştirir. Süreç maliyetlerini düşürerek kurumsal kaynakların etkin kullanımına katkıda bulunur.</p>
+                            <br><a href="eba.html">Daha Fazla...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <!-- About -->
+        <div id="about" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="center-relative">
+                        <span id="logos"><a href="qdms.html"><img src="demo-images/QDMS.png" alt="qdms"></a></span>
+                    </div>
+                    <h2 id="yazi" class="entry-title">QDMS</h2>
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class=" ">
+                            <h3>Entegre Yönetim Sistemi</h3>
+
+                            <p>500.000 uç kullanıcı tarafından kullanılan <b>QDMS</b> uygulamamız sahip olduğunuz yönetim sistemlerinizin gerekliliklerini veya firmanızın oluşturmuş olduğu kalite güvence süreçlerinizi yerine getirebilecek bir biriyle entegre çalışabilen modüler bir yapıya sahip platformdur.</p>
+                            <br><a href="qdms.html">Daha Fazla...</a>
+                        </div><br><br>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <!-- News -->
+        <div id="news" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="center-relative">
+                        <span id="logos"><a href="ensemble.html"><img src="demo-images/ENSEMBLE.png" alt="ensemble"></a></span>
+                    </div>
+                    <h2 id="yazi" class="entry-title">ENSEMBLE</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class=" ">
+                           <h3>Süreç, Strateji ve Performans Yönetimi Sistemi</h3>
+
+                           <p> Sürecin tanımlanması ve modellenmesi aşamalarından sonra, sürecin verimliliğini ve başarısını da ölçmek ve izlemek gereklidir. Bunun için  metrik ya da gösterge adı verilen ölçütler kullanılmaktadır. Bu göstergeler, sürecin nasıl daha iyi iyileştirilebileceği yönünde de bilgi sağlarlar. Kalite, verimlilik, girdi, çıktı gibi farklı gösterge türleri bulunmakla beraber bu göstergelerin tamamı süreç hakkında bir fikir sunarlar. Göstergeler belirli periyotlarla izlenir, hedef ataması yapılır, dönemsel değerleri girilerek sonuçları raporlanır.
+<br>
+                            Bimser’in <b>Ensemble</b> çözümü ile kurumunuzun süreçler için kritik gördüğünüz değerlerini izleyerek gerektiğinde verilere dayanarak doğru kararları hızlı bir şekilde alabilirsiniz. Bu sayede sürekli değişen pazar ve çevresel koşullara karşı kurumunuza ilave bir dayanıklılık kazandırırsınız.</p>
+                            <br><a href="ensemble.html">Daha Fazla...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                    </div>
+                </div>
+            
+
+
+        
+
+        <!-- Skills -->
+
+        <div id="skills" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="center-relative">
+                        <span id="logos" ><img src="demo-images/kullanım-01.png" alt="kullanım"></span>
+                        <h2 id="yazi" class="entry-title">Kullanım</h2>
+                    </div>
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <h3 id="logos" >Kullanım</h3>
+
+                        <p>Türkiye’nin ilk <b>1000</b> büyük şirketinin <b>600</b>'ü ile çalışıyoruz. Yurtdışında <b>33</b> ülkeyle çalışıyoruz.
+                            <br> <b>1 milyonun</b> üzerinde aktif kullanıcımız var.
+                        <br> <br>
+                    Türkiye'deki ilk <b>500</b> büyük şirketten kullandıkları programların grafiği aşağıdaki gibidir.</p>
+                        <br>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:73%;">
+                                <div class="progress_bar_title" style="color: #ffa4a4">BOYSWEB</div>
+                                <div class="progress_bar_percent_text" style="color: #ffa4a4">73%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#ec3755;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:81%;">
+                                <div class="progress_bar_title" style="color: #ffdda3">EBA</div>
+                                <div class="progress_bar_percent_text" style="color: #ffdda3">81%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#f89300;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:91%;">
+                                <div class="progress_bar_title" style="color: #ff769d">QDMS</div>
+                                <div class="progress_bar_percent_text" style="color: #ff769d">91%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#770446;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:64%;">
+                                <div class="progress_bar_title" style="color: #368091">ENSEMBLE</div>
+                                <div class="progress_bar_percent_text" style="color: #368091">64%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#5DBCD2;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width ">
+                            <iframe width="auto" height="450" src="https://www.youtube.com/embed/J4d8mk8w7gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--
+            <div class="extra-content-full-width">
+                <script>
+                    var fwslider1_speed = "500";
+                    var fwslider1_auto = "false";
+                    var fwslider1_hover = "true";
+                    var fwslider1_start = "0";
+                    var fwslider1_width = "320";
+                    var fwslider1_num = "6";
+                </script>
+                <div class="fwslider1 fw-image-slider-holder list_carousel relative">
+                    <div class="caroufredsel_wrapper">
+                        <ul id="fwslider1" class="fw-image-slider">
+                            <li class="fw-slide">
+                                <img src="demo-images/abdiogullari-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/adopenplastik-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/alarko-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/altınay-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/anibiskuvi-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/asas-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/aski-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/baknet-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/barilla-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/bauhaus-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/bekaert-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/brisa-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/camsan-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/danone-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/dosab-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/ekolhastanesi-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/eksanenerji-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/ekufren-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/hascelik-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/kahvedunyasi-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/kale-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/kervangida-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/kilsan-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/kolsan-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/kordsa-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/makyol-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/mondi-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/peyman-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/polyakeynez-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/sedeftersanesi-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/turkonholding-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/tyhtekstil-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/uzermakina-logo.jpg" alt="">
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/ykcplastik-logo.jpg" alt="">
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="fwslider1_fw_image_slide_pager" class="fw_carousel_pagination"></div>
+                </div>
+                <a id="fwslider1_fw_next" class="carousel_fw_next" href="#"></a> -->
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="center-relative">
+                        <span id="logos"><img src="demo-images/CONTACT.png" alt=""></span>
+                        <h2 id="yazi" class="entry-title">Bize Ulaşın</h2>
+                    </div>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                            <h4 style="text-align: center">DEMO TALEP FORMU</h4><br>
+                        <div class="one_half ">
+                            <br><br><br>
+
+                            <h6>Aksoy Çözüm Yazılım Ticaret Ltd. Şti.</h6>
+                            
+                            <a href="tel:02623413264"><b>Telefon:</b> +90 262 341 32 64</a> <br><br>
+                            <a href=""><b>Faks:</b> +90 262 341 32 64</a> <br><br>
+                            <a href="mailto:info@aksoycozum.com"><b>E-mail:</b> info@aksoycozum.com</a> <br><br>
+                            <a href="https://www.google.com/maps/place/Bimser+%C3%87%C3%B6z%C3%BCm+Dan%C4%B1%C5%9Fmanl%C4%B1k+Ltd.+%C5%9Eti./@40.7037575,29.8832033,18.29z/data=!4m12!1m6!3m5!1s0x14cb50576b2e8185:0x4039b382c6a74823!2sKocaeli+%C3%9Cniversitesi+Teknopark!8m2!3d40.704004!4d29.883416!3m4!1s0x0:0x2bf14b0fe98581f0!8m2!3d40.7036269!4d29.8846361" target="_blank"><b>Adres:</b> Yeniköy Merkez Mh. Vatan Cd. KOÜ Teknopark No:83/E-11 Başiskele/KOCAELİ – TÜRKİYE</a>
+
+                        </div>
+                        <div class="one_half last">
+                            <div class="contact-form">
+                                <p><input id="name" type="text" name="your-name" placeholder="İsim"></p>
+                                <p><input id="phone" type="text" name="your-phone" placeholder="Telefon"></p>
+                                <p><input id="email" type="email" name="your-email" placeholder="E-mail"></p>
+                                <p><input id="company" type="text" name="your-company" placeholder="Şirketiniz"></p>
+                                <p><input id="position" type="text" name="your-position" placeholder="Şirket Pozisyonunuz"></input></p>
+                                
+                                <h1 style="font-size: 30px; ">
+                                    <input  type="checkbox" name="BOYSWEB" value="BOYSWEB" id="BOYSWEB" /> BOYSWEB <br>
+                                    <input  type="checkbox" name="EBA" value="EBA" id="EBA" /> EBA <br>
+                                    <input  type="checkbox" name="QDMS" value="QDMS" id="QDMS" /> QDMS <br>
+                                    <input  type="checkbox" name="ENSEMBLE" value="ENSEMBLE"  id="ENSEMBLE"/> ENSEMBLE <br>
+                                    <input  type="checkbox" name="OZEL" value="OZEL"  id="OZEL"/> ÖZEL YAZILIM GELİŞTİRME
+                                </h1>
+                                <br>
+                                
+                                <p><input type="submit" onClick="DemoMail()" value="GÖNDER"></p>
+                        </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="full-width">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1235.5046352869135!2d29.883203291611796!3d40.703757500008216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bf14b0fe98581f0!2zQmltc2VyIMOHw7Z6w7xtIERhbsSxxZ9tYW5sxLFrIEx0ZC4gxZ50aS4!5e0!3m2!1str!2str!4v1564138856520!5m2!1str!2str" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer style="background-color: #ea6987" >
+            <div class="footer content-1170 center-relative">
+                <ul>
+                    <li class="copyright-footer">
+                        © 2019 All rights reserved.</a>
+                    </li>
+                    <li class="social-footer">
+                        <a href="https://twitter.com/aksoycozum" target="_blank"><span class="fa fa-twitter"></span></a>
+                        <a href="https://tr.linkedin.com/company/aksoy-%C3%A7%C3%B6z%C3%BCm-yazilim-ticaret-ltd.-%C5%9Fti." target="_blank"><span class="fa fa-linkedin"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
+        <!--Load JavaScript-->
+
+        <script src="myScript.js"></script>          
+        
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.sticky.js'></script>
+        <script type='text/javascript' src='js/jquery.dryMenu.js'></script>
+        <script type='text/javascript' src='js/isotope.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>

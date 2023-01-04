@@ -1,0 +1,53 @@
+section {
+    &.mail {
+        padding-top: 95px;
+        position: relative;
+        z-index: 999;
+        .box-container {
+            height: 188px;
+            background: var(--baseBgColor) url('../images/mailBg.png');
+            @include radius(15px);
+            .title {
+                float: left;
+                width: 50%;
+                h1 {
+                    display: block;
+                    margin-top: 60px;
+                    font-size: 25px;
+                    color: var(--white);
+                    font-family: $SantralBold;
+                    letter-spacing: 2px;
+                    margin-left: 37px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    margin-left: 37px;
+                    font-size: 13px;
+                    font-family: $SantralMedium;
+                    color: var(--white);
+                }
+            }
+            .link {
+                float: right;
+                a {
+                    display: block;
+                    padding: 20px 25px;
+                    background: var(--white);
+                    color: var(--darkBlue);
+                    @include radius(6px);
+                    text-decoration: none;
+                    font-family: $SantralBold;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin-top: 66px;
+                    margin-right: 45px;
+                    @include animates(500ms);
+                    &:hover {
+                        background: var(--purple);
+                        color: var(--white);
+                    }
+                }
+            }
+        }
+    }
+}

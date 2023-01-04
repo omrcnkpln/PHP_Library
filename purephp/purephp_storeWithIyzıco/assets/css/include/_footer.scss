@@ -1,0 +1,72 @@
+footer {
+    background: var(--darkBlue) url("../images/footerBg.png") left;
+    .footer-container {
+        margin-left: 50px;
+        margin-top: 50px;
+        padding-top: 170px;
+    }
+    .footer-head {
+        border-bottom: 1px solid rgba(155, 165, 202, 0.16);
+        padding-top: 100px;
+        padding-bottom: 30px;
+        .box {
+            margin-top: 30px;
+            h1 {
+                display: block;
+                font-size: 20px;
+                font-family: $SantralBold;
+                text-transform: uppercase;
+                color: var(--footerTitleColor);
+                margin-bottom: 35px;
+            }
+            p {
+                font-size: 13px;
+                color: var(--footerTitleColor);
+                line-height: 1.5;
+                font-family: $SantralMedium;
+            }
+            ul.social-media {
+                margin-top: 45px;
+                li {
+                    float: left;
+                    a {
+                        display: block;
+                        font-size: 25px;
+                        color: var(--footerTitleColor);
+                        margin-right: 25px;
+                        text-decoration: none;
+                        @include animates(500ms);
+                        &:hover {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            ul.list {
+                li {
+                    a {
+                        display: block;
+                        font-family: $SantralMedium;
+                        font-size: 14px;
+                        color: var(--footerTitleColor);
+                        margin-bottom: 20px;
+                        text-decoration: none;
+                        @include animates(500ms);
+                        &:hover {
+                            color: var(--footerTitleColor);
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        font-size: 14px;
+        font-family: $SantralMedium;
+        color: var(--footerTitleColor);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

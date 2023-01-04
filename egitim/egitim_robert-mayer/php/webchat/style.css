@@ -1,0 +1,51 @@
+#sohbetGenel{
+    width: 650px; 
+    margin: 30px auto;
+}
+#sohbetIcerik{
+    background-color: #fff;
+    padding: 10px;
+    border: 3px solid #ddd;
+    max-height: 300px;
+    overflow: auto;
+}
+#mesajGonder{
+    color: #fff;
+    padding: 10px 0;
+}
+#mesajGonder h3{
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+#mesajGonder textarea{
+    border: 2px solid #ddd;
+    padding: 5px;
+    width: 513px;
+    resize: none;
+    overflow: auto;
+}
+.sohbetMesaji{
+    padding: 5px;
+}
+.sohbetMesaji strong{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.sohbetTemizle{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+.sohbetTemizle a{
+    background-color: #656565;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 5px;
+    text-decoration: none;
+}

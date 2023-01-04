@@ -1,0 +1,34 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /
+RewriteRule ^anasayfa$ index.php [QSA]
+RewriteRule ^kategori/(.*)$ index.php?sayfa=kategoriler&seflink=$1 [QSA]
+RewriteRule ^blog-detay/(.*)$ index.php?sayfa=blog-detay&seflink=$1 [NC]
+RewriteRule ^urun/(.*)$ index.php?sayfa=urun-detay&seflink=$1 [NC]
+RewriteRule ^sepet$ index.php?sayfa=sepet [QSA]
+RewriteRule ^sepet-sil/(.*)/(.*)$ index.php?sayfa=sepet-sil&urunID=$1&varyasyonID=$2 [NC]
+RewriteRule ^sepet-sil/(.*)$ index.php?sayfa=sepet-sil&urunID=$1 [NC]
+RewriteRule ^sepet-sil$ index.php?sayfa=sepet-sil [NC]
+RewriteRule ^uyelik$ index.php?sayfa=uyelik [NC]
+RewriteRule ^hesabim$ index.php?sayfa=hesabim [NC]
+RewriteRule ^cikis-yap$ index.php?sayfa=cikis [NC]
+RewriteRule ^gizlilik-politikasi/(.*)$ index.php?sayfa=gizlilik-politikasi&seflink=$1 [NC]
+RewriteRule ^kurumsal/(.*)$ index.php?sayfa=kurumsal&seflink=$1 [NC]
+RewriteRule ^sifre-belirle/(.*)$ index.php?sayfa=sifre-belirle&seflink=$1 [NC]
+RewriteRule ^odeme-tipi$ index.php?sayfa=odeme-tipi [NC]
+RewriteRule ^odeme-yap$ index.php?sayfa=odeme-yap [NC]
+RewriteRule ^odeme-sonuc$ index.php?sayfa=odeme-sonuc [NC]
+RewriteRule ^kk-kayit$ index.php?sayfa=kk-kayit [NC]
+RewriteRule ^kk-odeme-sonuc$ kk-odeme-sonuc.php [NC]
+RewriteRule ^siparis-takip$ index.php?sayfa=siparis-takip [NC]
+RewriteRule ^siparislerim$ index.php?sayfa=siparislerim [NC]
+RewriteRule ^siparis-detay/(.*)$ index.php?sayfa=siparis-detay&sipariskodu=$1 [NC]
+RewriteRule ^iadeler$ index.php?sayfa=iadeler [NC]
+RewriteRule ^iade-detay/(.*)$ index.php?sayfa=iade-detay&iadekodu=$1 [NC]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# “ea-php72” paketini varsayılan “PHP” programlama dili olarak ayarlayın.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

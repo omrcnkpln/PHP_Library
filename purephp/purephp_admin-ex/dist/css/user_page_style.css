@@ -1,0 +1,98 @@
+@import url("../../fonts/playfair_display/stylesheet.css");
+@font-face {
+  font-family: 'Chronicle Display Roman';
+  src: url("../../fonts/Chronicle Display Roman/Chronicle Display Roman.otf"); }
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url("../../fonts/fira-sans/FiraSans-Regular.otf"); }
+
+@font-face {
+  font-family: 'FiraSansLight';
+  src: url("../../fonts/fira-sans/FiraSans-Light.otf"); }
+
+@font-face {
+  font-family: 'FiraSansUltraLight';
+  src: url("../../fonts/fira-sans/FiraSans-UltraLight.otf"); }
+
+body {
+  font-family: Chronicle Display Roman;
+  transition: all 3s ease; }
+
+.center {
+  width: 80%;
+  margin: 0 auto; }
+
+header {
+  height: 100px;
+  background: #0b6890;
+  color: #fff;
+  box-shadow: 0px 0px 5px 0px black;
+  position: relative;
+  z-index: 1; }
+  header .center {
+    display: flex;
+    justify-content: flex-end; }
+    header .center ul {
+      display: flex;
+      flex-direction: row; }
+      header .center ul li {
+        line-height: 100px;
+        display: flex; }
+        header .center ul li a {
+          background-color: rgba(0, 0, 0, 0.2);
+          margin: auto 20px;
+          padding: 0px 10px 0px 10px;
+          align-items: center;
+          color: #fff; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .container #left_section {
+    margin-top: -100px;
+    width: 50px;
+    height: 100vh;
+    background-color: #1D7C96;
+    position: fixed;
+    box-shadow: 0px 0px 5px 0px #1D7C96; }
+    .container #left_section #left_container ul {
+      margin-top: 150px;
+      width: 50px; }
+      .container #left_section #left_container ul li {
+        margin: 25px auto;
+        text-align: center;
+        font-size: 35px;
+        position: relative;
+        overflow: hidden; }
+        .container #left_section #left_container ul li a {
+          color: #fff;
+          padding: 10px 0;
+          display: block;
+          transition: all .5s ease; }
+          .container #left_section #left_container ul li a:hover {
+            transform: scale(1.25); }
+  .container .share {
+    margin: 80px; }
+    .container .share ul li a {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      letter-spacing: 2px;
+      font-size: 20px;
+      color: #0b6890; }
+      .container .share ul li a:hover {
+        background-color: rgba(0, 0, 0, 0.4); }
+
+.footer {
+  height: 100px;
+  background-color: #0b6890;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff; }
+
+/*# sourceMappingURL=user_page_style.css.map */

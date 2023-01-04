@@ -1,0 +1,27 @@
+
+#sırayla default olarak açacağı adresler
+DirectoryIndex giris.php index.php
+
+#html i de hata vermeden çalıştırır
+#AddType application/x-httpd-php php3 html
+
+#404 hatasında belirtilen sayfaya yönlendirir
+ErrorDocument 404 http://localhost/phpprojects/Robert_Mayer/php/404.php
+
+#uzantıları kaldırmak için
+#RewriteEngine On
+#Options +FollowSymlinks
+#RewriteRule ^kayit.*$ kayit [NC]
+#RewriteRule ^index.*$ php [NC]
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([a-z0-9A-Z-_/]+)$ index.php?par=$1
+
+
+#www yü illa koyar başa
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^siteadi\.com [NC]
+#RewriteRule ^(.*)$ http://www.siteadi.com/$1 [L,R=301]
+

@@ -1,0 +1,14 @@
+{
+    "name": "omercan/deneme",
+    "description": "deniyorum",
+    "require": {
+        "google/apiclient": "2.0",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "authors": [
+        {
+            "name": "pasadagli",
+            "email": "kaplan_911@hotmail.com"
+        }
+    ]
+}

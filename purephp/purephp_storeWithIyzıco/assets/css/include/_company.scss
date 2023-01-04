@@ -1,0 +1,90 @@
+section{
+  &.components--company{
+    height: 470px;
+    background: var(--yellow);
+    overflow-x: hidden;
+    .components--company-container{
+      padding-left: var(--paddingSize);
+      padding-right: 90px;
+      height: 100%;
+      .row{
+        height: 100%;
+      }
+      .white{
+        background: var(--white);
+        height: 100%;
+        position: relative;
+        z-index: 2;
+        &:after{
+          content: '';
+          width: 100%;
+          height: 100%;
+          background: var(--white);
+          position: absolute;
+          right: -90px;
+          display: block;
+          top: 0px;
+          z-index: 1;
+        }
+        ul{
+          position: relative;
+          z-index: 3;
+          li{
+            height: 25%;
+            border-bottom: 1px solid var(--lineColor);
+            width: 100%;
+            a{
+              width: 100%;
+              display: inline-flex;
+              align-items: center;
+              color: var(--menuColor);
+              height: 100%;
+              text-decoration: none;
+              @include animates(500ms);
+              &:hover{
+                span{
+                  &.text{
+                    color: var(--green);
+                  }
+                }
+              }
+              span{
+                &.number{
+                  margin-left: 30px;
+                  margin-right: 16px;
+                  font-size: var(--linkSize);
+                  font-family: $SantralLight;
+                  color: var(--gray);
+                }
+                &.text{
+                  font-size: var(--linkSize);
+                  font-family: $SantralBold;
+                  color: var(--menuColor);
+                  @include animates(500ms);
+                }
+              }
+            }
+          }
+        }
+      }
+      .title{
+        padding-top: 100px !important;
+        h3{
+          font-family: $SantralBold;
+          color: var(--menuColor);
+          font-size: var(--titleSize);
+          line-height: 70px;
+          margin-bottom: 20px;
+        }
+        span{
+          &.text{
+            font-family: $SantralMedium;
+            font-size: 14px;
+            color: var(--menuColor);
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

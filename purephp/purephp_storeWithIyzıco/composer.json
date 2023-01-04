@@ -1,0 +1,5 @@
+{
+    "require": {
+        "unlembilisim/foribaapi": "dev-master"
+    }
+}

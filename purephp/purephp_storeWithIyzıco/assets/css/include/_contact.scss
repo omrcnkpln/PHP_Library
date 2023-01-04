@@ -1,0 +1,56 @@
+section{
+  &.contact-us{
+    padding: var(--paddingSize);
+    h3{
+      font-family: $SantralBold;
+      color: var(--menuColor);
+      font-size: var(--titleSize);
+      line-height: 70px;
+      padding-bottom: 33px;
+    }
+    a{
+      display: block;
+      &.call-phone{
+        display: block;
+        font-size: var(--linkSize);
+        font-family: $SantralMedium;
+        margin-bottom: 15px;
+        color: var(--menuColor);
+        @include animates(500ms);
+        &:hover{
+          color: var(--green);
+        }
+      }
+      &.maps{
+        display: inline-flex;
+        padding: 25px 60px;
+        background: var(--green);
+        align-items: center;
+        justify-content: center;
+        @include radius(6px);
+        font-family: $SantralBold;
+        font-size: var(--smallTextSize);
+        color: var(--white);
+        text-decoration: none;
+        @include animates(500ms);
+        &:hover{
+          background: var(--yellow);
+          color: var(--menuColor);
+        }
+      }
+    }
+    span{
+      &.text{
+        display: block;
+        font-size: var(--smallTextSize);
+        font-family: $SantralLight;
+        color: var(--menuColor);
+        line-height: 45px;
+        margin-bottom: 131px;
+        strong{
+          font-family: $SantralBold;
+        }
+      }
+    }
+  }
+}

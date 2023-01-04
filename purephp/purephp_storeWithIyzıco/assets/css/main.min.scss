@@ -1,0 +1,72 @@
+@import 'mixins';
+@import 'colors';
+@import 'reset';
+@import 'fonts';
+@import 'family';
+@import 'fontawesome';
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-size: var(--linkSize);
+    font-family: $SantralMedium;
+    line-height: 1;
+}
+
+.btn-outline {
+    border: 1px solid;
+    border: 1px solid;
+    padding: 10px 60px;
+    border-radius: 32px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.container-max {
+    width: 100%;
+}
+
+@import 'include/responsive';
+@import 'include/header';
+@import 'include/akademi';
+@import 'include/urunkategori.scss';
+@import 'include/kesfet';
+@import 'include/neden-thinkermath';
+@import 'include/teams';
+@import 'include/sss';
+@import 'include/mail';
+@import 'include/footer';
+@media (max-width: 575.98px) {
+     :root {
+        --titleSize: 2.2em;
+        --smallTextSize: 2em;
+        --linkSize: 1em;
+        --paddingSize: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1200px;
+    }
+}

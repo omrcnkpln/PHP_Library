@@ -1,0 +1,374 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400; }
+
+.main {
+  min-height: 100%; }
+
+header {
+  background-color: #131422;
+  margin-bottom: 2rem; }
+  header .row {
+    height: 190px; }
+    header .row .btn {
+      color: #fff;
+      border: 1px solid #fff;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+      header .row .btn:hover {
+        background-color: #1E202C; }
+
+.ogrenme-fasikulu {
+  padding-top: 2rem;
+  overflow: hidden; }
+  .ogrenme-fasikulu .t-shirt-bg {
+    background-color: #131422;
+    padding: 2rem;
+    border-radius: 30px; }
+    .ogrenme-fasikulu .t-shirt-bg .col-12 {
+      color: #fff; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+                flex-direction: column;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+                justify-content: space-between;
+        height: 100%; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left li h2 {
+          font-size: 35px;
+          padding-top: 1.5rem;
+          padding-bottom: 2rem; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper {
+          background-color: #1E202C;
+          padding: 2rem;
+          border-radius: 3rem;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-justify-content: center;
+             -moz-box-pack: center;
+                  justify-content: center;
+          overflow: hidden; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .urun-w-image-wrapper {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
+                    justify-content: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                    align-items: center; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .urun-w-image-wrapper img {
+              max-width: auto; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
+                    justify-content: center; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string .adet-string-parallax {
+              width: 150px;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: flex;
+              -webkit-justify-content: center;
+                 -moz-box-pack: center;
+                      justify-content: center;
+              overflow-x: auto; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string .adet-string-parallax::-webkit-scrollbar {
+                height: 5px;
+                background-color: #ddd;
+                border-radius: 10px; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string .adet-string-parallax::-webkit-scrollbar-thumb {
+                cursor: pointer;
+                background-color: #ECBE01;
+                border-radius: 10px; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string .adet-string-parallax::-webkit-scrollbar-thumb:hover {
+                background-color: #d3aa01; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string .adet-string-parallax::-webkit-scrollbar-thumb:active {
+                background-color: #be9901; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .adet-string .adet-string-parallax li {
+                height: 2px;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-left: 0.25rem;
+                margin-right: 0.25rem;
+                margin-bottom: 0.25rem;
+                border-radius: 35px;
+                background-color: #fff; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .price-wrapper {
+            position: relative; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .price-wrapper .price-left {
+              border: 1px solid #F2C300;
+              padding: 1rem;
+              font-size: 14px;
+              position: absolute;
+              border-radius: 5px; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .price-wrapper .price-right .last-price {
+              font-size: 14px;
+              color: #707070;
+              position: relative;
+              display: inline; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .price-wrapper .price-right .last-price:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 7px;
+                width: 100%;
+                height: 100%;
+                border-bottom: 1px solid #797A82; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .urun-wrapper .price-wrapper .price-right .current-price {
+              padding-top: 0.5rem;
+              font-size: 20px;
+              color: #F2C300; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .sepete-ekle {
+          background-color: #F2C300;
+          color: #fff;
+          font-size: 20px;
+          border-radius: 15px;
+          margin-bottom: 2.5rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler {
+          background-color: #1E202C;
+          padding: 1rem;
+          border-radius: 10px; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler h3 {
+            font-size: 11px; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax {
+            width: 130%;
+            margin-left: -15%;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            overflow-x: auto; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax::-webkit-scrollbar {
+              height: 5px;
+              background-color: #ddd;
+              border-radius: 10px; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax::-webkit-scrollbar-thumb {
+              background-color: #ECBE01;
+              border-radius: 10px; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax::-webkit-scrollbar-thumb:hover {
+              background-color: #d3aa01; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax::-webkit-scrollbar-thumb:active {
+              background-color: #be9901; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax li {
+              background-color: #31333F;
+              margin-right: 0.5rem;
+              margin-bottom: 0.5rem;
+              margin-top: 0.5rem;
+              border-radius: 10px;
+              padding: 0.5rem 1rem;
+              cursor: pointer;
+              box-shadow: 0px 0px 5px 1px #121421; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax li .diger-urunler-parallax-img-wrapper {
+                display: -webkit-flex;
+                display: -moz-box;
+                display: flex;
+                -webkit-align-items: center;
+                   -moz-box-align: center;
+                        align-items: center;
+                -webkit-justify-content: center;
+                   -moz-box-pack: center;
+                        justify-content: center;
+                overflow: hidden; }
+              .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-left .diger-urunler .diger-urunler-parallax li img {
+                height: 100px; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .genel-bilgiler {
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #1E202C; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .genel-bilgiler .col-11 {
+          border-bottom: 1px solid #707070; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .genel-bilgiler .col-11 .genel-bilgiler-left {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                    align-items: center; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .genel-bilgiler .col-11 .genel-bilgiler-right {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            padding-top: 2rem;
+            padding-bottom: 2rem; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .genel-bilgiler .col-11 .genel-bilgiler-right .btn {
+              margin-left: 1rem;
+              background-color: #2A2B37;
+              color: #fff; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .genel-bilgiler h3 {
+          font-size: 20px; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .f-15 {
+        font-size: 15px;
+        color: #5F6169; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .k-y-bilgileri {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 15px;
+        color: #5F6169;
+        background-color: #1E202C; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main {
+        background-color: #1E202C;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-top: 0.1px solid #1B1E2B;
+        border-bottom: 0.1px solid #1B1E2B; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .ikili-ayır {
+          height: 180px;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-flex-direction: column;
+             -moz-box-orient: vertical;
+             -moz-box-direction: normal;
+                  flex-direction: column;
+          -webkit-justify-content: space-between;
+             -moz-box-pack: justify;
+                  justify-content: space-between; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .ikili {
+          text-align: left;
+          background-color: #2A2B37;
+          border-radius: 10px;
+          padding: 0.5rem 1rem; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .ikili .ikili-item-1 {
+            font-size: 11px;
+            color: #5F6169; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .ikili .ikili-item-2 {
+            font-size: 11px;
+            color: #fff;
+            margin-top: 0.25rem;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                    align-items: center; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .ikili .ikili-item-2 img {
+              margin-right: 0.25rem; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .bilgiler-author {
+          text-align: left;
+          background-color: #2A2B37;
+          padding: 1rem;
+          border-radius: 15px;
+          height: 180px; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .bilgiler-author .bilgiler-image-wrapper {
+            position: relative;
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            overflow: hidden;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
+                    justify-content: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                    align-items: center;
+            margin-bottom: 1rem; }
+            .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .bilgiler-author .bilgiler-image-wrapper img {
+              max-width: 100%; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .bilgiler-author h3 {
+            font-size: 15px;
+            margin-bottom: 1rem; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .bilgiler-main .bilgiler-author p {
+            font-size: 13px;
+            color: #797A82;
+            line-height: 20px; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .daha-fazla {
+        background-color: #1E202C;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .f-18 {
+        font-size: 18px; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options {
+        background-color: #1E202C;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options .d-f-options-icerik {
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center; }
+        .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options .d-fazla-image-wrapper {
+          width: 55px;
+          height: 55px;
+          background-color: #2A2B37;
+          border-radius: 15px;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center;
+          -webkit-justify-content: center;
+             -moz-box-pack: center;
+                  justify-content: center;
+          margin-right: 1rem; }
+          .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options .d-fazla-image-wrapper img {
+            max-width: 30px; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options-1 {
+        border-top: 1px solid #1B1E2B; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options-2 {
+        border-top: 0.5px solid #131422; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options-3 {
+        border-top: 1.5px solid #131422; }
+      .ogrenme-fasikulu .t-shirt-bg .col-12 .urun-right .d-f-options-4 {
+        border-top: 2px solid #131422;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-bottom: 2rem; }
+
+.footer-type-2 {
+  background-color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  overflow: hidden; }
+  .footer-type-2 .container {
+    background-color: #131422;
+    border-radius: 30px; }
+    .footer-type-2 .container .footer-baslik {
+      padding: 2rem 2rem;
+      color: #fff;
+      font-size: 31px; }
+    .footer-type-2 .container .footer-item-wrapper {
+      padding: 2rem 2rem; }
+      .footer-type-2 .container .footer-item-wrapper .footer-item {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex; }
+        .footer-type-2 .container .footer-item-wrapper .footer-item .footer-item-img-wrapper {
+          font-size: 23px;
+          color: #fff; }
+        .footer-type-2 .container .footer-item-wrapper .footer-item .footer-item-yazi {
+          padding-left: 0.5rem;
+          padding-top: 0.5rem;
+          font-size: 23px;
+          color: #fff; }
+  .footer-type-2 .copyright {
+    font-size: 14px;
+    color: #9BA5CA;
+    padding-top: 1rem; }

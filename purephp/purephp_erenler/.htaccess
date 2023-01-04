@@ -1,0 +1,49 @@
+# BEGIN Error Pages
+ErrorDocument 400 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 401 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 401 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 403 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 404 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 405 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 406 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 407 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 408 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 409 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 410 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 411 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 412 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 413 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 414 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 500 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 501 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 502 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 503 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 504 http://izmiterenlerspor.com/anasayfa
+ErrorDocument 505 http://izmiterenlerspor.com/anasayfa
+# END Error Pages
+
+RewriteEngine On
+#içinde index olmayan klasörleri erişime kapatır
+Options All -Indexes
+
+#sırayla default olarak açacağı adresler
+DirectoryIndex index.php yonetim.php iletisim.php
+
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^iletisim.*$ iletisim.php [NC,L]
+RewriteRule ^galeri$ galeri.php [NC,L]
+RewriteRule ^galeri.*$ galeri.php [NC,L]
+RewriteRule ^tesisler$ tesisler.php [NC,L]
+RewriteRule ^tesisler.*$ tesisler.php [NC,L]
+RewriteRule ^atakim$ atakim.php [NC,L]
+RewriteRule ^atakim.*$ atakim.php [NC,L]
+RewriteRule ^yonetim$ yonetim.php [NC,L]
+RewriteRule ^yonetim$ yonetim.php [NC,L]
+RewriteRule ^teknikekip.*$ teknikekip.html [NC,L]
+RewriteRule ^teknikekip.*$ teknikekip.html [NC,L]
+RewriteRule ^anasayfa$ index.php [NC,L]
+RewriteRule ^anasayfa.*$ index.php [NC,L]
+RewriteRule ^index$ index.php [NC,L]
+RewriteRule ^index.*$ index.php [NC,L]
+
+#RewriteRule ^haber-detay/([0-9a-zA-Z-_]+)/([0-9]+)$ haber-detay.php?sef=$1&haber_id=$2 [L,QSA]

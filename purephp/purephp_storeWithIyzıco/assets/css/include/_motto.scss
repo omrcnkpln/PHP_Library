@@ -1,0 +1,45 @@
+section{
+  &.components--motto{
+    .components--motto--container{
+      padding: 120px;
+      .motto-image{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        &:after{
+          content: '';
+          background: url("../images/yellow-bg-dotted.svg") no-repeat;
+          width: 472px;
+          height: 214px;
+          position: absolute;
+          bottom: -50px;
+        }
+      }
+      .image{
+        width: 384px;
+        height: 437px;
+        background: var(--white);
+        position: relative;
+        z-index: 9;
+        box-shadow: 0 20px 18px 0 rgba(#D4D4D4, 50%);
+        @include radius(10px);
+      }
+      h3{
+        font-family: $SantralBold;
+        color: var(--menuColor);
+        font-size: var(--titleSize);
+        line-height: 70px;
+        padding-bottom: 50px;
+      }
+      span{
+        &.text{
+          display: block;
+          font-size: var(--linkSize);
+          font-family: $SantralLight;
+          color: var(--lightColor70);
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}

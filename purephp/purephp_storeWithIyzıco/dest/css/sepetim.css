@@ -1,0 +1,605 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Abel", sans-serif;
+  font-weight: 400; }
+
+.main {
+  min-height: 100%; }
+
+.basket .basket-bg {
+  background-color: #131422;
+  border-radius: 30px;
+  padding: 2rem; }
+  .basket .basket-bg .basket-listele .dropdown-divider {
+    border-color: #8E8E99; }
+  .basket .basket-bg .basket-listele .basket-baslik ul {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center; }
+    .basket .basket-bg .basket-listele .basket-baslik ul li h1 {
+      font-size: 45px;
+      color: #fff; }
+    .basket .basket-bg .basket-listele .basket-baslik ul li .hediye-kuponu-item {
+      font-size: 16px;
+      color: #76767E;
+      cursor: pointer; }
+  .basket .basket-bg .basket-listele .urun-list {
+    margin-top: 1rem;
+    height: 620px;
+    overflow-y: auto;
+    padding: 1rem; }
+    .basket .basket-bg .basket-listele .urun-list::-webkit-scrollbar {
+      width: 5px;
+      background-color: #ddd;
+      border-radius: 10px; }
+    .basket .basket-bg .basket-listele .urun-list::-webkit-scrollbar-thumb {
+      cursor: pointer;
+      background-color: #ECBE01;
+      border-radius: 10px; }
+    .basket .basket-bg .basket-listele .urun-list::-webkit-scrollbar-thumb:hover {
+      background-color: #d3aa01; }
+    .basket .basket-bg .basket-listele .urun-list::-webkit-scrollbar-thumb:active {
+      background-color: #be9901; }
+    .basket .basket-bg .basket-listele .urun-list .basket-list {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; }
+      .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-l ul {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+                align-items: center; }
+        .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-l ul .basket-list-img-wrapper {
+          width: 90px;
+          height: 120px;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center;
+          -webkit-justify-content: center;
+             -moz-box-pack: center;
+                  justify-content: center;
+          overflow: hidden;
+          margin-right: 1rem; }
+          .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-l ul .basket-list-img-wrapper img {
+            max-width: 100%; }
+        .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-l ul h3 {
+          font-size: 13px;
+          color: #fff;
+          padding-bottom: 0.5rem; }
+        .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-l ul p {
+          font-size: 13px;
+          color: #505050; }
+      .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+                align-items: center;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+                justify-content: space-between; }
+        .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r ul {
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center;
+          color: #fff;
+          font-size: 14px; }
+          .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r ul li {
+            margin-right: 0.5rem; }
+          .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r ul .basket-a-e {
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 5px; }
+            .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r ul .basket-a-e:hover {
+              background-color: #1E202C; }
+          .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r ul .basket-list-item-count {
+            width: 50px;
+            height: 30px;
+            border: 1px solid #c7c7c7;
+            border-radius: 5px;
+            background-color: transparent;
+            text-align: center;
+            color: #fff; }
+        .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r .fiyat {
+          color: #fff;
+          font-size: 14px; }
+        .basket .basket-bg .basket-listele .urun-list .basket-list .basket-list-r .cikar {
+          color: #fff;
+          font-size: 30px;
+          cursor: pointer; }
+  .basket .basket-bg .basket-listele .basket-sum ul {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 1rem;
+    color: #fff; }
+    .basket .basket-bg .basket-listele .basket-sum ul .toplam span {
+      color: #727272; }
+  .basket .basket-bg .basket-bilgiler.show {
+    display: block; }
+  .basket .basket-bg .basket-bilgiler {
+    background-color: #1E202C;
+    padding: 2rem;
+    border-radius: 30px;
+    display: none; }
+    .basket .basket-bg .basket-bilgiler .bilgiler-baslik {
+      color: #fff;
+      font-size: 18px;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+              justify-content: space-between;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center; }
+      .basket .basket-bg .basket-bilgiler .bilgiler-baslik .btn {
+        color: #fff;
+        border: 1px solid #fff; }
+        .basket .basket-bg .basket-bilgiler .bilgiler-baslik .btn:hover {
+          background-color: #3B3D47; }
+    .basket .basket-bg .basket-bilgiler .odeme-turu-button {
+      margin-top: 1rem;
+      padding: 1rem;
+      border: 1px solid #131422;
+      border-radius: 5px;
+      height: 80px;
+      cursor: pointer; }
+      .basket .basket-bg .basket-bilgiler .odeme-turu-button .odeme-turu-start {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+                justify-content: space-between; }
+        .basket .basket-bg .basket-bilgiler .odeme-turu-button .odeme-turu-start .odeme-turu-baslik {
+          font-size: 13px;
+          color: #131422; }
+        .basket .basket-bg .basket-bilgiler .odeme-turu-button .odeme-turu-start .odeme-turu-icon-1 {
+          display: none; }
+        .basket .basket-bg .basket-bilgiler .odeme-turu-button .odeme-turu-start .odeme-turu-icon-2 {
+          display: block; }
+      .basket .basket-bg .basket-bilgiler .odeme-turu-button p {
+        margin-top: 0.5rem;
+        width: 90%;
+        font-size: 11px;
+        color: #707070; }
+      .basket .basket-bg .basket-bilgiler .odeme-turu-button.active {
+        color: #fff;
+        border-color: #fff; }
+        .basket .basket-bg .basket-bilgiler .odeme-turu-button.active .odeme-turu-baslik {
+          color: #fff; }
+        .basket .basket-bg .basket-bilgiler .odeme-turu-button.active .odeme-turu-icon-1 {
+          display: block; }
+        .basket .basket-bg .basket-bilgiler .odeme-turu-button.active .odeme-turu-icon-2 {
+          display: none; }
+    .basket .basket-bg .basket-bilgiler .odeme-turu.active {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex; }
+    .basket .basket-bg .basket-bilgiler .odeme-turu {
+      display: none;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+              flex-direction: column;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+              justify-content: space-between;
+      height: 580px; }
+    .basket .basket-bg .basket-bilgiler .havale {
+      color: #fff; }
+      .basket .basket-bg .basket-bilgiler .havale .havale-h1 {
+        font-size: 16px;
+        color: #fff;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+      .basket .basket-bg .basket-bilgiler .havale .havale-aciklama {
+        font-size: 18px; }
+      .basket .basket-bg .basket-bilgiler .havale .hesap-adi {
+        font-size: 16px; }
+    .basket .basket-bg .basket-bilgiler .kart-bilgileri-h1 {
+      font-size: 16px;
+      color: #fff;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+    .basket .basket-bg .basket-bilgiler .kart-vision {
+      position: relative;
+      width: 330px;
+      height: 180px; }
+      .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-front {
+        -webkit-transform: rotateY(180deg);
+           -moz-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+        padding: 2rem;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-justify-content: flex-end;
+           -moz-box-pack: end;
+                justify-content: flex-end; }
+        .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-front .kart-vision-front-top {
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-justify-content: space-between;
+             -moz-box-pack: justify;
+                  justify-content: space-between;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center; }
+          .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-front .kart-vision-front-top .kart-vision-number {
+            font-size: 14px;
+            color: #fff; }
+        .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-front .kart-vision-front-bottom {
+          margin-top: 1rem;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-justify-content: space-between;
+             -moz-box-pack: justify;
+                  justify-content: space-between;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center; }
+          .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-front .kart-vision-front-bottom .kart-vision-isim {
+            font-size: 14px;
+            color: #fff; }
+      .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-back {
+        -webkit-transform: rotateY(-180deg);
+           -moz-transform: rotateY(-180deg);
+                transform: rotateY(-180deg);
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        background-color: lime; }
+        .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-back .kart-vision-line-1 {
+          width: 100%;
+          height: 30px;
+          background-color: #3e3e3e;
+          margin-top: 1rem; }
+        .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-back .kart-vision-cvc-side {
+          display: -webkit-flex;
+          display: -moz-box;
+          display: flex;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+                  align-items: center;
+          margin-top: 1rem; }
+          .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-back .kart-vision-cvc-side .kart-vision-line-2 {
+            width: 80%;
+            height: 30px;
+            margin-left: 0.5rem;
+            background-color: white; }
+          .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-back .kart-vision-cvc-side .kart-vision-cvc {
+            margin-left: 1rem;
+            text-align: right; }
+      .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-side.show {
+        -webkit-transform: translateY(0);
+           -moz-transform: translateY(0);
+             -o-transform: translateY(0);
+                transform: translateY(0); }
+      .basket .basket-bg .basket-bilgiler .kart-vision .kart-vision-side {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        border-radius: 15px;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+                flex-direction: column;
+        background-color: #8E8E99;
+        -webkit-backface-visibility: hidden;
+           -moz-backface-visibility: hidden;
+                backface-visibility: hidden;
+        -webkit-transition: 333ms all ease;
+           -moz-transition: 333ms all ease;
+             -o-transition: 333ms all ease;
+                transition: 333ms all ease;
+        overflow: hidden; }
+    .basket .basket-bg .basket-bilgiler .kart-bil .kart-bil-baslik {
+      font-size: 16px;
+      color: #828489;
+      margin-top: 1rem; }
+    .basket .basket-bg .basket-bilgiler .kart-bil .kart-bil-input {
+      font-size: 16px;
+      color: #fff;
+      background-color: transparent;
+      border-bottom: 1px solid #3B3D47;
+      padding: 0.5rem 0;
+      width: 100%;
+      outline: none; }
+      .basket .basket-bg .basket-bilgiler .kart-bil .kart-bil-input::-webkit-input-placeholder {
+        color: #31333F; }
+      .basket .basket-bg .basket-bilgiler .kart-bil .kart-bil-input::placeholder {
+        color: #31333F; }
+    .basket .basket-bg .basket-bilgiler .kart-bil-with-icon {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center; }
+    .basket .basket-bg .basket-bilgiler .tamamla {
+      margin-top: 1rem; }
+      .basket .basket-bg .basket-bilgiler .tamamla .btn {
+        background-color: #ECBE01;
+        color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 0;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem; }
+    .basket .basket-bg .basket-bilgiler .tamamla-kredi-kartı .btn {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center;
+      -webkit-justify-content: flex-end;
+         -moz-box-pack: end;
+              justify-content: flex-end;
+      padding-right: 1rem; }
+      .basket .basket-bg .basket-bilgiler .tamamla-kredi-kartı .btn img {
+        width: 40px; }
+
+.basket-hediye-kuponu .basket-bg {
+  background-color: #131422;
+  border-radius: 30px;
+  padding: 2rem; }
+  .basket-hediye-kuponu .basket-bg .basket-listele .dropdown-divider {
+    border-color: #8E8E99; }
+  .basket-hediye-kuponu .basket-bg .basket-listele .basket-baslik ul {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center; }
+    .basket-hediye-kuponu .basket-bg .basket-listele .basket-baslik ul h1 {
+      font-size: 45px;
+      color: #fff; }
+    .basket-hediye-kuponu .basket-bg .basket-listele .basket-baslik ul p {
+      font-size: 16px;
+      color: #76767E; }
+  .basket-hediye-kuponu .basket-bg .basket-listele .basket-list {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+    .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-l ul {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center; }
+      .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-l ul .basket-list-img-wrapper {
+        width: 90px;
+        height: 120px;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+                align-items: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+                justify-content: center;
+        overflow: hidden;
+        margin-right: 1rem; }
+        .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-l ul .basket-list-img-wrapper img {
+          max-width: 100%; }
+      .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-l ul h3 {
+        font-size: 13px;
+        color: #fff;
+        padding-bottom: 0.5rem; }
+      .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-l ul p {
+        font-size: 13px;
+        color: #505050; }
+    .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+              justify-content: space-between; }
+      .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r ul {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+                align-items: center;
+        color: #fff;
+        font-size: 14px; }
+        .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r ul li {
+          margin-right: 0.5rem; }
+        .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r ul .basket-a-e {
+          cursor: pointer;
+          padding: 0.5rem;
+          border-radius: 5px; }
+          .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r ul .basket-a-e:hover {
+            background-color: #1E202C; }
+        .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r ul .basket-list-item-count {
+          border: 1px solid #c7c7c7;
+          padding: 0.5rem 1.5rem;
+          border-radius: 5px; }
+      .basket-hediye-kuponu .basket-bg .basket-listele .basket-list .basket-list-r .fiyat {
+        color: #fff;
+        font-size: 14px; }
+  .basket-hediye-kuponu .basket-bg .basket-listele .basket-sum ul {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 1rem;
+    color: #fff; }
+    .basket-hediye-kuponu .basket-bg .basket-listele .basket-sum ul .toplam span {
+      color: #727272; }
+  .basket-hediye-kuponu .basket-bg .basket-bilgiler {
+    background-color: #1E202C;
+    padding: 2rem;
+    border-radius: 30px; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .bilgiler-baslik {
+      color: #fff;
+      font-size: 18px; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu {
+      margin-top: 1rem;
+      padding: 1rem;
+      border: 1px solid #131422;
+      border-radius: 5px;
+      cursor: pointer; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu .odeme-turu-start {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+                justify-content: space-between; }
+        .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu .odeme-turu-start .odeme-turu-baslik {
+          font-size: 13px;
+          color: #131422; }
+        .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu .odeme-turu-start .odeme-turu-icon-1 {
+          display: none; }
+        .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu .odeme-turu-start .odeme-turu-icon-2 {
+          display: block; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu p {
+        margin-top: 0.5rem;
+        width: 90%;
+        font-size: 11px;
+        color: #707070; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu.active {
+        color: #fff;
+        border-color: #fff; }
+        .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu.active .odeme-turu-baslik {
+          color: #fff; }
+        .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu.active .odeme-turu-icon-1 {
+          display: block; }
+        .basket-hediye-kuponu .basket-bg .basket-bilgiler .odeme-turu.active .odeme-turu-icon-2 {
+          display: none; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-bilgileri-h1 {
+      font-size: 16px;
+      color: #fff;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-vision {
+      background-color: #8E8E99;
+      width: 320px;
+      height: 180px;
+      border-radius: 25px;
+      padding: 2rem;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+              flex-direction: column;
+      margin-bottom: 1rem; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-vision .kart-vision-number {
+        font-size: 14px;
+        color: #fff; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-vision .kart-vision-kullanici {
+        margin-top: 1rem;
+        font-size: 14px;
+        color: #fff;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-justify-content: space-between;
+           -moz-box-pack: justify;
+                justify-content: space-between; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-bil .kart-bil-baslik {
+      font-size: 16px;
+      color: #828489;
+      margin-top: 1rem; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-bil .kart-bil-input {
+      font-size: 16px;
+      color: #fff;
+      background-color: transparent;
+      border-bottom: 1px solid #3B3D47;
+      padding: 0.5rem 0;
+      width: 100%;
+      outline: none; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-bil .kart-bil-input::-webkit-input-placeholder {
+        color: #31333F; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-bil .kart-bil-input::placeholder {
+        color: #31333F; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .kart-bil-with-icon {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+              align-items: center; }
+    .basket-hediye-kuponu .basket-bg .basket-bilgiler .tamamla {
+      margin-top: 1rem; }
+      .basket-hediye-kuponu .basket-bg .basket-bilgiler .tamamla .btn {
+        background-color: #ECBE01;
+        color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        padding: 1rem;
+        font-size: 20px; }
+
+.footer-type-2 {
+  background-color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+  .footer-type-2 .container {
+    background-color: #131422;
+    border-radius: 30px; }
+    .footer-type-2 .container .footer-baslik {
+      padding: 2rem 2rem;
+      color: #fff;
+      font-size: 31px; }
+    .footer-type-2 .container .footer-item-wrapper {
+      padding: 2rem 2rem; }
+      .footer-type-2 .container .footer-item-wrapper .footer-item {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex; }
+        .footer-type-2 .container .footer-item-wrapper .footer-item .footer-item-img-wrapper {
+          font-size: 23px;
+          color: #fff; }
+        .footer-type-2 .container .footer-item-wrapper .footer-item .footer-item-yazi {
+          padding-left: 0.5rem;
+          padding-top: 0.5rem;
+          font-size: 23px;
+          color: #fff; }
+  .footer-type-2 .copyright {
+    font-size: 14px;
+    color: #9BA5CA;
+    padding-top: 1rem; }

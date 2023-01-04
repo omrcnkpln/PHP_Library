@@ -1,0 +1,208 @@
+.progress {
+  position: relative;
+  width: 164px;
+  height: 164px;
+  background: transparent;
+
+  span {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    position: absolute;
+    top: 0;
+    //width: calc(100% - 2px);
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    //background: lime;
+    border-width: 10px;
+    border-style: solid;
+  }
+
+  .progress-left {
+    left: 1px;
+
+    .progress-bar {
+      left: 100%;
+      border-top-right-radius: 100px;
+      border-bottom-right-radius: 100px;
+      //border-radius: 20px;
+      border-left: 0;
+      transform-origin: center left;
+    }
+  }
+
+  .progress-right {
+    right: 1px;
+
+    .progress-bar {
+      left: -100%;
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 80px;
+      border-right: 0;
+      transform-origin: center right;
+    }
+  }
+
+  .progress-value {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #000;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+  }
+}
+
+.progress {
+  &.green {
+    .progress-bar {
+      border-color: $ensemble;
+    }
+  }
+
+  &.red {
+    .progress-bar {
+      border-color: $beam;
+    }
+  }
+
+  &.rebecca {
+    .progress-bar {
+      border-color: $qdms;
+    }
+  }
+
+  &.orange {
+    .progress-bar {
+      border-color: $eba;
+    }
+  }
+
+  &.loading-91 {
+    .progress-right {
+      .progress-bar {
+        animation: loading-180 1s linear forwards 2s;
+      }
+    }
+
+    .progress-left {
+      .progress-bar {
+        animation: loading-91 1s linear forwards 3s;
+      }
+    }
+  }
+
+  &.loading-73 {
+    .progress-bar {
+      animation: loading-180 1s linear forwards 2s;
+    }
+
+    .progress-left {
+      .progress-bar {
+        animation: loading-73 1s linear forwards 3s;
+      }
+    }
+  }
+
+  &.loading-64 {
+    .progress-bar {
+      animation: loading-180 1s linear forwards 2s;
+    }
+
+    .progress-left {
+      .progress-bar {
+        animation: loading-64 1s linear forwards 3s;
+      }
+    }
+  }
+
+  &.loading-81 {
+    .progress-bar {
+      animation: loading-180 1s linear forwards 2s;
+    }
+
+    .progress-left {
+      .progress-bar {
+        animation: loading-81 1s linear forwards 3s;
+      }
+    }
+  }
+}
+
+//91%
+@keyframes loading-91 {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(163deg);
+  }
+}
+
+//73%
+@keyframes loading-73 {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(131deg)
+  }
+}
+
+//81%
+@keyframes loading-81 {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(145deg)
+  }
+}
+
+//64%
+@keyframes loading-64 {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(115deg)
+  }
+}
+
+//180%
+@keyframes loading-180 {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(180deg)
+  }
+}
