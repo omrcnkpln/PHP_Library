@@ -43,17 +43,25 @@
 //    }))
 
 // bu n eise yariyor bilmiyorum
-$string = file_get_contents("data.json");
-$json_a = json_decode($string, true);
+$followersFile = json_decode(file_get_contents("followers_1.json"), true);
+$followingsFile = json_decode(file_get_contents("following.json"), true);
 
 //echo $json_a['data']['user']['edge_followed_by']['count'];
 
 //print_r($json_a['data']['user']['edge_followed_by']['edges']);
 
+echo "Followers". "<br/><br/><br/>";
 $i = 0;
-foreach ($json_a['data']['user']['edge_followed_by']['edges'] as $key => $value) {
-    echo $i . ":" . $value["node"]["username"] . "<br>";
+foreach ($followersFile as $key => $value) {
+    echo $i . ":" . $value["string_list_data"][0]["value"] . "<br>";
     $i++;
+}
+
+echo "Following". "<br/><br/><br/>";
+$j = 0;
+foreach ($followingsFile["relationships_following"] as $key => $value) {
+    echo $j . ":" . $value["string_list_data"][0]["value"] . "<br>";
+    $j++;
 }
 ?>
 
